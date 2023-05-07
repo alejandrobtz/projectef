@@ -1,0 +1,6 @@
+C:\Projects\projectef\obj\Debug\net7.0\projectef.csproj.AssemblyReference.cache
+C:\Projects\projectef\obj\Debug\net7.0\projectef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\projectef\obj\Debug\net7.0\projectef.AssemblyInfoInputs.cache
+C:\Projects\projectef\obj\Debug\net7.0\projectef.AssemblyInfo.cs
+C:\Projects\projectef\obj\Debug\net7.0\projectef.csproj.CoreCompileInputs.cache
+C:\Projects\projectef\obj\Debug\net7.0\projectef.MvcApplicationPartsAssemblyInfo.cache
