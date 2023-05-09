@@ -5,7 +5,7 @@ using projectef;
 var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.AddDbContext<TaskContext>(p => p.UseInMemoryDatabase("TaskDb"));
-builder.Services.AddSqlServer<TaskContext>("Data Source=Alejandro; Initial Catalog=tododatabase; user id=sa;password=12345678; TrustServerCertificate=true");
+builder.Services.AddSqlServer<TaskContext>(builder.Configuration.GetConnectionString("cnTodo"));
 
 var app = builder.Build();
 
