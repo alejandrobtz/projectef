@@ -5,14 +5,13 @@ namespace projectef.Models;
 
 public class Category
 {
-    [Key]
+    //[Key]
     public Guid CategoryId {get; set;}
 
-    [Required]
-    [MaxLength(150)]
+    //[Required]
+    //[MaxLength(150)]
     public string Name {get; set;}
     public string Description {get; set;}
-
     public virtual ICollection<ToDo> Tasks {get; set;}
 }
 
