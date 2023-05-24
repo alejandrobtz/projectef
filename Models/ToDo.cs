@@ -5,23 +5,23 @@ namespace projectef.Models;
 
 public class ToDo
 {
-    [Key]
+    //[Key]
     public Guid TaskId {get;set;}
 
-    [ForeignKey("CategoryId")]
+    //[ForeignKey("CategoryId")]
     public Guid CategoryId {get; set;}
 
-    [Required]
-    [MaxLength(200)]
+    // [Required]
+    // [MaxLength(200)]
     public string Title {get; set;}
 
     public string Description {get; set;}
 
     public PriorityEnum Priority {get; set; }
-    DateTime CreatedTime {get; set;}
+    public DateTime CreatedTime {get; set;}
     public virtual Category Category {get; set;}
 
-    [NotMapped]
+    //[NotMapped]
     public string Summary {get; set;}
 
 }
